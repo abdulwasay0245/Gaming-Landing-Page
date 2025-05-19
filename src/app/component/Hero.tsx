@@ -33,7 +33,7 @@ const Hero = () => {
         <img
           src="/hero-image.png" // Make sure this image is in public/ folder
           alt="Girl with VR"
-          className="rounded-xl shadow-lg w-full h-auto object-cover"
+          className="rounded-xl s w-full h-auto object-cover"
         />
       </div>
     </div>
