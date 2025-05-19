@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { orbitron } from './fonts'
+import Button from './Button'
 
 const Hero = () => {
   return (
@@ -19,9 +20,7 @@ const Hero = () => {
           Whether you're a casual player or a competitive pro, we’ve got you covered with everything from action-packed blockbusters to hidden indie gems.
         </p>
         <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-          <button className="bg-gradient-to-r from-pink-500 to-blue-500 text-white px-6 py-2 rounded-tr-xl rounded-bl-xl font-medium">
-            Get started
-          </button>
+          <Button text = "Get Started"></Button>
           <button className="flex items-center gap-2 border border-gray-400 px-6 py-2 rounded-full">
             <span className="text-xl">▶</span> See Demo
           </button>

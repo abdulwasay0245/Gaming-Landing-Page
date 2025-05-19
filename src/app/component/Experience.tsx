@@ -1,3 +1,4 @@
+import Button from "./Button";
 import { orbitron } from "./fonts";
 
 
@@ -43,9 +44,7 @@ export default function ExperienceSection() {
             Find Your perfect <span className="text-blue-400">VR</span>{" "}
             <span className="text-[#d96cfb]">Experience</span>
           </h3>
-          <button className="mt-6 px-6 py-2 rounded-md bg-gradient-to-r from-pink-500 to-blue-500 text-white hover:opacity-90">
-            View more
-          </button>
+          <Button text="View more"/>
         </div>
       </section>
     );

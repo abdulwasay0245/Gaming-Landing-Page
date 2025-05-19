@@ -1,5 +1,6 @@
 import React from 'react'
 import { poppins } from './fonts'
+import Button from './Button'
 const Navbar = () => {
   return (
    
@@ -15,9 +16,7 @@ const Navbar = () => {
        <li className="hover:text-pink-400 cursor-pointer">Game</li>
        <li className="hover:text-pink-400 cursor-pointer">Contact</li>
      </ul>
-     <button className="bg-gradient-to-r from-purple-500 to-blue-500 px-4 py-2 rounded-full text-white text-sm font-medium">
-       Sign up
-     </button>
+     <Button text="Sign up" />
     </nav>
     </>
   )
