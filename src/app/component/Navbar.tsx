@@ -9,7 +9,7 @@ const Navbar = () => {
        <img src="/LOGO.png" alt="VRR Logo" className="w-10 h-10" />
        <span className="text-xl font-bold">VRR</span>
      </div>
-     <ul className="hidden md:flex gap-20 text-sm font-medium">
+     <ul className="hidden md:flex gap-20 text-sm font-medium" style={poppins.style}>
        <li className="hover:text-pink-400 cursor-pointer">Home</li>
        <li className="hover:text-pink-400 cursor-pointer">About us</li>
        <li className="hover:text-pink-400 cursor-pointer">Game</li>
