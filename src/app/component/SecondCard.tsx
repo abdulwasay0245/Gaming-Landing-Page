@@ -1,7 +1,8 @@
 import React from 'react'
 import { vrCard } from './data/card'
 import Image from 'next/image'
-import { orbitron , poppins} from './fonts'
+import { orbitron, poppins } from './fonts'
+import { FaStar } from "react-icons/fa";
 const SecondCard = () => {
   return (
       <div className='flex gap-6 item-center justify-center overflow-hidden'>
@@ -13,8 +14,13 @@ const SecondCard = () => {
                       height={543}
                       width={450}
                   ></Image>
-                  <span className='space-y-6 font-medium  bg-gradient-to-br from-pink-500 to-blue-500 text-transparent bg-clip-text' style={orbitron.style}>{index.heading}</span>
-                  <p style={poppins.style} className='mt-5'>{index.description }</p>
+                  <span className='space-y-6 font-medium   ' style={orbitron.style}>{index.heading}</span>
+                 
+                  <div className='flex'>
+                      {Array.from({ length: 5 }).map((_,i) => (
+                          <FaStar key={i} className='text-[#FDC185]' />
+                      ))}
+                    </div>
                   
               </div>
           ))}
