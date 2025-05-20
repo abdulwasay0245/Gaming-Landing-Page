@@ -2,13 +2,14 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { orbitron } from './fonts';
 
 export default function Footer() {
   return (
     <footer className="bg-[#1c1524] text-white border-t border-b border-blue-500">
       {/* Top section with logo and description */}
-      <div className="container mx-auto px-4 py-6">
-        <div className="flex flex-col md:flex-row items-start md:items-center mb-8">
+      <div className="container mx-auto px-4 py-6 ">
+              <div className="flex flex-col md:flex-row text-center items-center md:items-center  mb-8">
           <div className="flex items-center mb-4 md:mb-0">
             <div className="w-12 h-12 relative mr-3">
               <Image 
@@ -21,7 +22,7 @@ export default function Footer() {
             </div>
             <span className="text-lg font-semibold text-blue-300">VR9</span>
           </div>
-          <p className="text-gray-300 ml-0 md:ml-4">
+          <p className="text-gray-300 ml-0 md:ml-4 " style={orbitron.style}>
             Our VR gaming website present amazing features and fantastic designs
           </p>
         </div>
