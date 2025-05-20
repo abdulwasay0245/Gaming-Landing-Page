@@ -1,4 +1,5 @@
 import { orbitron, poppins } from "./fonts";
+import NewsletterSubscription from "./Subscribe";
 
 
 const Testimonial = ({ author, text, rating }:{author: string, text: string, rating: number}) => {
@@ -57,6 +58,7 @@ export default function TestimonialsSection() {
           />
         ))}
       </div>
+      <NewsletterSubscription />
     </div>
   );
 }

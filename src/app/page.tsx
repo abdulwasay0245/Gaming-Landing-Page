@@ -5,6 +5,7 @@ import JoinSection from "./component/JoinSection";
 import SecondCardSection from "./component/SecondCardSection";
 import PlanSection from "./component/PlanSection";
 import TestimonialsSection from "./component/Testimonial";
+import Footer from "./component/Footer";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       <SecondCardSection />
       <PlanSection />
       <TestimonialsSection />
+      <Footer />
     </>
   );
 }
