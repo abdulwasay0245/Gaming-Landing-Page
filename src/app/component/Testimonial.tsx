@@ -2,7 +2,7 @@ import { orbitron, poppins } from "./fonts";
 import NewsletterSubscription from "./Subscribe";
 
 
-const Testimonial = ({ author, text, rating }:{author: string, text: string, rating: number}) => {
+const Testimonial = ({ author, text,  }:{author: string, text: string, rating: number}) => {
   // Create an array of 5 stars
   const stars = Array(5).fill(0);
   
