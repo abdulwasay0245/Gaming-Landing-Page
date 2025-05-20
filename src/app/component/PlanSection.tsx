@@ -1,6 +1,6 @@
 import React from 'react'
 import { orbitron, poppins, podkova } from './fonts'
-import ProCard from './ProCard'
+import ProPlansCard from './ProCard'
 const PlanSection = () => {
   return (
       <div  className='h-screen   flex flex-col gap-28 items-center justify-center '  style={{ background: 'radial-gradient(ellipse at center, #000000, #1f2937, #6b21a8)' }} >
@@ -9,7 +9,7 @@ const PlanSection = () => {
               <p style={podkova.style} className='font-extralight '>Upgrade your VR levels with new features </p>
           </div>
           
-          <ProCard/>
+          <ProPlansCard/>
 
       </div>
   )
