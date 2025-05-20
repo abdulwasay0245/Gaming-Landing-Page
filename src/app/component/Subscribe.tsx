@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { orbitron } from './fonts';
 import Button from './Button';
 
@@ -7,7 +7,7 @@ export default function NewsletterSubscription() {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
   
-  const handleSubmit = (e) => {
+  const handleSubmit = (e : React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Handle subscription logic here
     console.log(`Subscribing email: ${email}`);
