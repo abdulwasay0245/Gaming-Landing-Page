@@ -5,6 +5,7 @@ import Hero from "./component/Hero";
 import ExperienceSection from "./component/Experience";
 import CardSection from "./component/CardSection";
 import JoinSection from "./component/JoinSection";
+import SecondCardSection from "./component/SecondCardSection";
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
       <ExperienceSection />
       <CardSection />
       <JoinSection />
+      <SecondCardSection />
     </>
   );
 }
