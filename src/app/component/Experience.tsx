@@ -29,7 +29,7 @@ export default function ExperienceSection() {
               At VR we create worlds where imagination becomes reality. <br />
               Our mission is to unlock new dimensions of gaming through
               immersive virtual experiences. From epic adventures to
-              breathtaking visuals, we transport players to places they've
+              breathtaking visuals, we transport players to places they have
               only dreamed of.
             </p>
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md shadow-md">

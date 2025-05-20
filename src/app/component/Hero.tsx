@@ -18,7 +18,7 @@ const Hero = () => {
           </span>
         </h2>
         <p className="text-gray-300 max-w-md">
-          Whether you're a casual player or a competitive pro, we have got you covered with everything from action-packed blockbusters to hidden indie gems.
+          Whether you are a casual player or a competitive pro, we have got you covered with everything from action-packed blockbusters to hidden indie gems.
         </p>
         <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
           <Button text = "Get Started"></Button>
