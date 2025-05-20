@@ -7,7 +7,7 @@ const SecondCard = () => {
   return (
       <div className='flex gap-6 item-center justify-center overflow-hidden'>
           {secondCard.map((index) => (
-              <div key={index.index} className='space-y-4'>
+              <div key={index.index} className='space-y-4 hover:scale-110 duration-100 overflow-hidden'>
                   <Image
                       src={index.img}
                       alt={index.img}

@@ -6,7 +6,7 @@ const Card = () => {
   return (
       <div className='flex gap-6 item-center justify-center overflow-hidden'>
           {vrCard.map((index) => (
-              <div key={index.index} className='space-y-4'>
+              <div key={index.index} className='space-y-4 hover:scale-110 duration-100'>
                   <Image
                       src={index.img}
                       alt={index.img}
