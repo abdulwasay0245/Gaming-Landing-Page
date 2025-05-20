@@ -1,3 +1,4 @@
+import { orbitron, poppins } from "./fonts";
 
 
 const Testimonial = ({ author, text, rating }:{author: string, text: string, rating: number}) => {
@@ -5,12 +6,12 @@ const Testimonial = ({ author, text, rating }:{author: string, text: string, rat
   const stars = Array(5).fill(0);
   
   return (
-    <div className="w-full md:w-64 p-4 rounded-lg border border-purple-500  bg-opacity-30 flex flex-col justify-between">
-      <div>
-        <h3 className="text-white font-bold mb-2">{author}</h3>
-        <p className="text-gray-300 text-sm mb-3">{text}</p>
+    <div className="  p-4 rounded-lg border border-purple-500  bg-opacity-30 flex flex-col justify-between">
+      <div className="flex flex-col gap-4 text-center">
+        <h3 className="text-white font-bold mb-2 text-2xl" style={orbitron.style}>{author}</h3>
+        <p className="text-gray-300 font-light text-sm mb-3 " style={poppins.style}>{text}</p>
       </div>
-      <div className="flex text-yellow-400 mt-1">
+      <div className="flex text-yellow-400 mt-1 self-center">
         {stars.map((_, index) => (
           <svg 
             key={index} 
