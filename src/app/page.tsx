@@ -6,6 +6,7 @@ import ExperienceSection from "./component/Experience";
 import CardSection from "./component/CardSection";
 import JoinSection from "./component/JoinSection";
 import SecondCardSection from "./component/SecondCardSection";
+import PlanSection from "./component/PlanSection";
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
       <CardSection />
       <JoinSection />
       <SecondCardSection />
+      <PlanSection />
     </>
   );
 }

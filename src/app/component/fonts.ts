@@ -1,4 +1,4 @@
-import { Orbitron, Poppins } from "next/font/google";
+import { Orbitron, Poppins, Podkova } from "next/font/google";
 
 const orbitron = Orbitron(
     {
@@ -12,4 +12,11 @@ const poppins = Poppins(
     }
 )
   
-export {orbitron,poppins}
+
+const podkova = Podkova(
+    {
+        weight: ['400', '500',]
+    }
+)
+
+export {orbitron,poppins, podkova}
