@@ -12,8 +12,12 @@ const ProCard = () => {
           </div>
           <div>
               <div className='flex flex-col gap-4'>
-                  {Array.from({length: 6}).map((_,i) => (
-                      <GiCheckMark key={i} className='font-black'/>
+                  {Array.from({ length: 6 }).map((_, i) => (
+                      <div key={i} className='flex'>
+                          <GiCheckMark  className='font-black' />
+                          <p>asssssssssssssssssssssssssssssssss</p>
+                      </div>
+                      
                  ))}
               </div>
               <Button text="Unlock Access"></Button>
