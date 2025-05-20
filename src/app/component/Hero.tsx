@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { orbitron } from './fonts'
 import Button from './Button'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
           </span>
         </h2>
         <p className="text-gray-300 max-w-md">
-          Whether you're a casual player or a competitive pro, we’ve got you covered with everything from action-packed blockbusters to hidden indie gems.
+          Whether you're a casual player or a competitive pro, we have got you covered with everything from action-packed blockbusters to hidden indie gems.
         </p>
         <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
           <Button text = "Get Started"></Button>
@@ -29,11 +30,13 @@ const Hero = () => {
 
       {/* Right Image */}
       <div className="lg:w-1/2 mt-10 lg:mt-0 relative">
-        <img
-          src="/hero-image.png" // Make sure this image is in public/ folder
-          alt="Girl with VR"
-          className="rounded-xl s w-full h-auto object-cover"
-        />
+          <Image
+          src="/hero-image.png" 
+            alt="Girl with VR"
+            width={200}
+            height={200}
+            className="rounded-xl s w-full h-auto"
+            ></Image>
       </div>
     </div>
 

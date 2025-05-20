@@ -1,8 +1,7 @@
 'use client'
 import React from 'react'
-import Image from 'next/image'
 import Button from './Button'
-import { orbitron, poppins } from './fonts'
+import { orbitron } from './fonts'
 const JoinSection = () => {
   return (
     <section className="relative w-full h-screen flex items-center justify-center bg-cover bg-center backdrop-blur-xl text-white" style={{ backgroundImage: "url('/headphone-bg.png')" }}>

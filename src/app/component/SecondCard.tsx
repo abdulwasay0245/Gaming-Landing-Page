@@ -1,7 +1,7 @@
 import React from 'react'
 import secondCard from './data/secondCard';
 import Image from 'next/image'
-import { orbitron, poppins } from './fonts'
+import { orbitron} from './fonts'
 import { FaStar } from "react-icons/fa";
 const SecondCard = () => {
   return (

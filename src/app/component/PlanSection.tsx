@@ -1,5 +1,5 @@
 import React from 'react'
-import { orbitron, poppins, podkova } from './fonts'
+import { orbitron, podkova } from './fonts'
 import ProPlansCard from './ProCard'
 const PlanSection = () => {
   return (

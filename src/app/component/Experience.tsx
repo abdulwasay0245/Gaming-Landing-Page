@@ -1,7 +1,7 @@
 import Button from "./Button";
 import { orbitron } from "./fonts";
 
-
+/* eslint-disable @next/next/no-img-element */
 export default function ExperienceSection() {
     return (
       <section className="bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] text-white py-20 px-4">
