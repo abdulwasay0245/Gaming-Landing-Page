@@ -9,15 +9,15 @@ export default function NewsletterSubscription() {
   
   const handleSubmit = (e : React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle subscription logic here
+    
     console.log(`Subscribing email: ${email}`);
     setSubscribed(true);
     setEmail('');
   };
 
   return (
-    <div className="mt-40 w-full max-w-lg relative p-0.5 rounded-lg bg-gradient-to-r from-purple-500 to-blue-500">
-      <div className=" rounded-lg p-8" style={{ background: 'radial-gradient(ellipse at center, #000000, #1f2937, #6b21a8)' }} >
+    <div className="mt-40 w-full max-w-lg relative p-0.5 rounded-bl-2xl bg-gradient-to-r from-purple-500 to-blue-500">
+      <div className=" rounded-bl-2xl p-8" style={{ background: 'radial-gradient(ellipse at center, #000000, #1f2937, #6b21a8)' }} >
         <div className="flex justify-center mb-6">
           <div className="w-12 h-8 bg-gradient-to-r from-purple-500 to-blue-500 rounded-md flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
