@@ -91,6 +91,9 @@ export default function Footer() {
 
         {/* Bottom Divider */}
         <div className="border-t border-gray-700"></div>
+        <div className='justify-self-center text-2xl pt-16 ' style={orbitron.style}>
+          <h1>Designed by <span className='font-bold gradient-text'>Rimsha Shahid</span> and Developed by <span className='gradient-text font-bold'>Abdul Wasay</span></h1>
+        </div>
       </div>
     </footer>
   );
