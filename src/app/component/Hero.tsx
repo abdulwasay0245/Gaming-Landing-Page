@@ -3,7 +3,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { orbitron } from './fonts'
 import Button from './Button'
-import Image from 'next/image'
+
 
 const Hero = () => {
   return (
