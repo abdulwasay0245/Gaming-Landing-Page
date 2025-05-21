@@ -1,3 +1,4 @@
+        /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Navbar from './Navbar'
 import { orbitron } from './fonts'
@@ -29,14 +30,8 @@ const Hero = () => {
       </div>
 
       {/* Right Image */}
-      <div className="lg:w-1/2 mt-10 lg:mt-0 relative">
-          <Image
-          src="/hero-image.png" 
-            alt="Girl with VR"
-            width={200}
-            height={200}
-            className="rounded-xl s w-full h-auto"
-            ></Image>
+        <div className="lg:w-1/2 mt-10 lg:mt-0 relative">
+          <img src="/hero-image.png" alt="Girl with VR" />
       </div>
     </div>
 
