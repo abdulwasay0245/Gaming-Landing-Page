@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
     </div>
 
-   <Navbar/>
+   
   </div>
   )
 }

@@ -7,7 +7,7 @@ const Navbar = () => {
    
       <>
      <nav className="absolute top-0 left-0 w-full flex justify-between items-center px-8 py-4 bg-transparent">
-     <div className="flex items-center gap-2">
+     <div className="flex sticky items-center gap-2">
        <Image src="/LOGO.png" alt='s' width={40} height={40}></Image>
        <span className="text-xl font-bold">VRR</span>
      </div>
