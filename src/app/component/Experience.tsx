@@ -1,13 +1,23 @@
+'use client'
+import { useEffect } from "react";
 import Button from "./Button";
 import { orbitron } from "./fonts";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 /* eslint-disable @next/next/no-img-element */
 export default function ExperienceSection() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    })
+  },[])
     return (
       <section className="bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] text-white py-20 px-4">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           {/* Images */}
-          <div className="grid grid-cols-2 gap-4">
+          <div data-aos = "fade-up" className="grid grid-cols-2 gap-4">
             <div className="rounded-tl-[100px] overflow-hidden">
               <img src="/Frame 7.png" alt="VR user 1" className="w-full h-full object-cover" />
             </div>
@@ -20,7 +30,7 @@ export default function ExperienceSection() {
           </div>
   
           {/* Text Content */}
-          <div>
+          <div data-aos = "fade-in">
             <h2 className="text-4xl font-normal mb-4" style={orbitron.style}>
               <span className="text-[#d96cfb]">Experience</span>{" "}
               the world <br /> like never before
@@ -39,7 +49,7 @@ export default function ExperienceSection() {
         </div>
   
         {/* Footer section */}
-        <div className="mt-20 text-center">
+        <div data-aos= "fade-up" className="mt-20 text-center">
           <h3 className="text-3xl font-semibold">
             Find Your perfect <span className="text-blue-400">VR</span>{" "}
             <span className="text-[#d96cfb]">Experience</span>

@@ -31,7 +31,7 @@ const Hero = () => {
 
       {/* Right Image */}
         <div className="lg:w-1/2 mt-10 lg:mt-0 relative">
-          <img src="/hero-image.png" alt="Girl with VR" />
+          <img className='animation-fade-in' src="/hero-image.png" alt="Girl with VR" />
       </div>
     </div>
 

@@ -34,3 +34,15 @@ body {
 }
 
 
+.animation-fade-in{
+  animation: animate-fade-in 1s ease;
+}
+
+@keyframes animate-fade-in {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100;
+  }
+}
