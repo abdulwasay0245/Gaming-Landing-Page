@@ -1,6 +1,5 @@
         /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Navbar from './Navbar'
 import { orbitron } from './fonts'
 import Button from './Button'
 

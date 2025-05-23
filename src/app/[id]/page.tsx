@@ -8,7 +8,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
   if (!product) return <div className="text-center p-10">Product not found</div>
 
   return (
-    <div className="pt-20 text-center flex items-center justify-center">
+    <div className="pt-20 flex items-center justify-center">
           
       <Image
       src={product.img}
